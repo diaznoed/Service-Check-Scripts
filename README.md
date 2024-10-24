@@ -5,7 +5,7 @@ Here is a description for each of the scripts you can use for your GitHub reposi
 
 ---
 
-### 1. **generatekey_v0.1.py**【59†source】
+### 1. **generatekey_v0.1.py**
 
 **Description**:  
 This script generates and stores an encryption key using the `cryptography` library's `Fernet` encryption. It saves the key in a file called `secret.key` that can later be used to encrypt or decrypt sensitive data like passwords.
@@ -17,7 +17,7 @@ This script generates and stores an encryption key using the `cryptography` libr
 
 ---
 
-### 2. **encryptkey_v0.1.py**【60†source】
+### 2. **encryptkey_v0.1.py**
 
 **Description**:  
 This script loads an encryption key from a file (`secret.key`) and uses it to encrypt a password. The encrypted password can replace the original plaintext password in a script for added security. It also scrambles the original password in the script after encryption.
@@ -31,7 +31,7 @@ This script loads an encryption key from a file (`secret.key`) and uses it to en
 
 ---
 
-### 3. **prt_svr_ds_monitor_v0.1.py**【61†source】
+### 3. **prt_svr_ds_monitor_v0.1.py**
 
 **Description**:  
 This script monitors the health of an ArcGIS server, validates a datastore, and checks if any services are down. It uses the ArcGIS Server Admin API and performs checks to ensure the server and datastore are functioning as expected. In case of issues, it sends email alerts.
@@ -45,7 +45,7 @@ This script monitors the health of an ArcGIS server, validates a datastore, and 
 
 ---
 
-### 4. **prt_svr_ds_success_v0.1.py**【62†source】
+### 4. **prt_svr_ds_success_v0.1.py**
 
 **Description**:  
 This script is designed to check the health of an ArcGIS server, validate datastores, and check the status of ArcGIS services. It logs the results and sends an email alert if any issues are detected. It also decrypts an encrypted password using a key file (`secret.key`).
@@ -57,7 +57,7 @@ This script is designed to check the health of an ArcGIS server, validate datast
 
 ---
 
-### 5. **scripts_test_v0.1.py**【58†source】
+### 5. **scripts_test_v0.1.py**
 
 **Description**:  
 This script loads functions from another script (`prt_svr_ds_success_v1.1.py`) and allows the user to simulate various failure scenarios, such as server, portal, or datastore downtime. The script sends email alerts based on the simulated failure scenarios.
